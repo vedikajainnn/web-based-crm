@@ -1,0 +1,434 @@
+/* ------------------------INDEX.HTML----------------------------------------------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f4e37;
+    padding: 30px;
+    font-weight: bold;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://static.vecteezy.com/system/resources/previews/035/796/334/original/ai-generated-an-aesthetic-studio-coffee-shop-interior-featuring-a-coffee-cup-and-plant-free-photo.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: bolder;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero .btn:hover {
+    background-color: #563d2d;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 180px;
+    border: 5px solid rgba(107, 7, 7, 0.189);
+    font-size: 20px;
+}
+
+.feature-box h2 {
+    font-size: 22px;
+    color: #6f4e37;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+/* --------------------------------------#LOGIN PAGE-------------------------------------------------------- */
+/* -------------------------------------------------------LOGIN------------------------------------------------------------ */
+body {
+    background: linear-gradient(to right, #8B4513, #D2B48C, #F5DEB3); /* Coffee-toned gradient */
+    height: 100vh; /* Ensures full-screen coverage */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.hey
+{
+    .hey {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6f4e37;
+        padding: 30px;
+        width: 100%;  /* Ensures full width */
+        box-sizing: border-box; /* Prevents padding from affecting width */
+    }
+    
+}
+.login-container {
+    font-weight: bold;
+    width: 350px;
+    background: rgba(254, 229, 182, 0.968); /* Light creamy overlay with slight transparency */
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #6f4e37;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Gentle shadow for depth */
+    margin: 70px auto;
+}
+
+form {
+    margin: 50px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #6f4e37;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fffaf0;
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100px;
+}
+
+/* ------------------------------------ADD INFORMATION-------------------------------------------------------------- */
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5d8; /* Light coffee shade */
+    color: #4a3628; /* Dark brown for text */
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f3e5d8;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f3e5d8;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #4a3628;
+    border-radius: 5px;
+}
+
+/* Form Styling */
+.form-container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #6f4e37;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6f4e37;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #4a3628;
+}
+
+/* Success and Error Messages */
+p {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p[style*="color: green;"] {
+    background-color: #e6f7e6;
+    color: #2d8a2d;
+}
+
+p[style*="color: red;"] {
+    background-color: #f7e6e6;
+    color: #8a2d2d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+}
+/* -----------------------------------------------------CUSTOMER DASHBOARD PAGEE---------------------------------------- */
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff8f0; /* Soft off-white for a coffee feel */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #5c3a21; /* Dark coffee brown */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #d2b48c; /* Tan color */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b5a2b; /* Medium brown */
+    color: #fff8f0; /* Light cream text */
+}
+
+tr:nth-child(even) {
+    background-color: #f3e5d8; /* Light coffee */
+}
+
+tr:hover {
+    background-color: #e0c3a5; /* Slightly darker coffee */
+}
+
+/* ----------------------------------------------------FOR THE ANALYSIS-------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1c8; /* Light brown background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #5a3e1b; /* Dark brown */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #8b5e3b; /* Medium brown */
+}
+
+th {
+    background-color: #5a3e1b; /* Dark brown */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #edd9b6; /* Light beige */
+}
+
+tr:hover {
+    background-color: #e0c4a3; /* Soft brown */
+}
+
+/* Category badges */
+.gold {
+    background-color: #d4af37;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.silver {
+    background-color: #c0c0c0;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bronze {
+    background-color: #cd7f32;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Churn risk indicators */
+.low-risk {
+    color: green;
+    font-weight: bold;
+}
+
+.medium-risk {
+    color: orange;
+    font-weight: bold;
+}
+
+.high-risk {
+    color: red;
+    font-weight: bold;
+}
+
+/* Center the chart */
+.chart-container {
+    margin-top: 30px;
+    text-align: center;
+}
